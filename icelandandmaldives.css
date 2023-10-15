@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: grid;
+    margin-top: 20px;
+    grid-template-rows: 600px 100px 600px 100px;
+    grid-template-columns: 500px 500px 500px;
+    justify-content: center;
+}
+
+
+.q{
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 宋体;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+
+.q img{
+    width: 500px;
+    height: 600px;
+}

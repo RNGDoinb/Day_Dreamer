@@ -1,0 +1,383 @@
+*{
+    overflow:auto ;
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+}
+
+#btn {
+    background-color: lightslategray;
+    display: none;
+    position: fixed;
+    height: 140px; 
+    width: 180px;
+    bottom: 120px;
+    right: -100px;
+    z-index: 999;
+    overflow: hidden;
+  }
+
+  .top{
+    height: 100px; 
+    width: 80px; 
+    position: relative;  
+  }
+.navbar{
+    overflow: hidden;
+    height: 100px;
+    position: relative;
+    background-color:lightslategray;
+    box-shadow:inset  -5px -5px 10px black;
+}
+.LOGO{
+    position: relative;
+    left:100px; 
+}
+
+.pinpai{
+    position: absolute;
+    left:205px;
+    top: 25px;
+    font-size: 26px;
+    font-family: 华文新魏;
+    letter-spacing: 10px;
+    color:blueviolet;
+    background-color: 	lightslategray;
+}
+
+.yingwen{
+    position: absolute;
+    left:208px;
+    top: 50px;
+    font-size: 24px;
+    font-family: 华文新魏;
+    color: blueviolet;
+    background-color: lightslategray;
+}
+
+.motto{
+    position: absolute;
+    left:500px;
+    top: 50px;
+    font-size: 24px;
+    font-family: 宋体;
+    color: lightpink;
+    background-color: 	lightslategray;
+}
+
+ul{
+    text-align: right;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    letter-spacing: 25px;
+    background-color: 	lightslategray;
+}
+
+
+.dhl{
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 30px;
+    background-color: 	lightslategray;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: 	lightslategray;
+}
+
+a:hover{
+    font-size: larger;
+    border-bottom: 5px solid green;
+}
+.LunBoImg{
+    float: left;
+    list-style: none;
+}
+.lunbotu{
+    width: 1690px;
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+}
+.lunbotu img{
+    float: left;
+    list-style: none;
+    width: 1690px;
+    height: 800px;
+}
+#LBT{
+    width: 5070px;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: myanimation 8s infinite;     
+} 
+@keyframes myanimation {
+    0%,25%{
+        left: 0;
+    }
+    35%,60%{
+        left: -1690px;
+    }
+    70%,90%{
+        left: -3380px;
+    }
+}
+
+
+
+.main{
+    margin: 100px 200px;
+    height: 500px;
+    background-color: blueviolet;
+    position: relative;
+    overflow: visible;
+    border-radius: 100px;  
+}
+
+
+
+.meaning_title{
+    background-color: blueviolet;
+    position:absolute;
+    top: 100px;
+    left: 80px;
+    font-family: 宋体;
+    font-size: 32px;
+}
+
+
+
+.meaning_text{
+    background-color: blueviolet;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 30px;  
+}
+
+
+.MeaningImg{
+    position: absolute;
+    right: 30px;
+    top: -50px;
+}
+
+.activity_title{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 宋体;
+    font-size: 28px;
+    letter-spacing: 20px;
+}
+
+.line{
+    margin: 20px auto;
+    width: 1000px;
+    height: 1px;
+    border-top: 1px solid greenyellow
+}
+
+
+.activity_text{
+    height:760px ;
+    width: 1600px;
+    margin: 20px auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows:600px 100px ;
+    overflow: hidden;
+    grid-gap: 20px;
+}
+
+.activity_name{
+    text-align: center;
+    font-family: 宋体;
+    font-size: 18px;
+    color:aliceblue
+}
+
+
+.PlaceName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: visible;
+}
+
+.IceLand,.Maldives{
+    margin: 50px auto;
+}
+
+#BingDao{
+    position: absolute;
+    top: -5px;
+    left: 780px;
+    font-size: 30px; 
+}
+
+
+#maerdaifu{
+    position:absolute;
+    top: 890px;
+    left: 740px;
+    font-size: 30px;
+}
+
+
+.BD,.MEDF{
+    background-color: cornflowerblue;
+}
+
+
+ .BD:hover{
+    background-color: darkolivegreen;
+    border-style: none;
+}
+.MEDF:hover{
+    background-color: darkolivegreen;
+    border-style: none;
+}
+
+
+.tuozhan{
+    width: 1400px;
+    height: 600px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background-color: steelblue;
+    margin: 50px auto;
+    position: relative;
+    overflow: visible;
+}
+
+
+.tuozhan_title{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 60px;
+    right: 480px;
+    display: inline-block;
+    background-color: steelblue;
+    color: darksalmon;
+    text-shadow: 5px 5px 5px green;
+}
+
+
+.tuozhan_text{
+    background-color: steelblue;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 36px;
+    position: absolute;
+    top: 140px;
+    right: 100px;
+    color: hotpink;
+    text-shadow: 2px 2px 5px red;
+}
+
+
+.movie_img{
+    position: absolute;
+    top: 35px;
+    left: -120px;
+}
+
+
+.asidebar{
+    position: fixed;
+    transform: translateY(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   }
+   
+   .asidebar p{
+    background-color: white;
+    cursor: pointer; 
+   }
+   
+   
+   #x{
+    right: 0;
+    top: 47%;
+   }
+   
+   
+   .weixin{
+    display: none;
+    position: fixed;
+    right: 60px;
+    top: 35%;
+    height: 120px;
+    width: 120px;
+   }
+   
+   .weixin:hover {
+    opacity: 1; 
+   }
+    
+   
+   
+   #y{
+    right: 0;
+    top: 53%;
+   }
+
+
+  
+
+
+footer{
+    margin-top: 50px;
+    height: 120px;
+    background-color: darkslategrey;
+    position: relative;
+}
+    
+
+#aa,#bb{
+    background-color: darkslategrey;
+}
+
+
+
+#email,#qq,#address,#telephone,#chubanshe{
+    position: absolute;
+    background-color: darkslategrey;
+    font-size: 18px;
+    font-family: 宋体;
+    color: aliceblue;
+}
+
+#email{
+    top: 50px;
+    left:400px;
+}
+#qq{
+    top: 50px;
+    left:650px;
+}
+#address{
+    top: 50px;
+    left: 900px;
+}
+#telephone{
+    top:50px ;
+    left:1300px ;
+}
+
+#chubanshe{
+    bottom: 10px;
+    left:800px ;
+}
